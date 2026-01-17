@@ -1,11 +1,7 @@
 """
 Feature flag data models.
-Pydantic models for validation and serialization.
+Use pydantic models for validation and serialization.
 """
-
-# feature flag data models
-# pydantic models for validation and serialization
-# keeps things simple with basic rollout strategies
 
 from pydantic import BaseModel, Field
 from typing import Optional, Dict, Any, List
@@ -14,7 +10,6 @@ from enum import Enum
 
 
 class RolloutStrategy(str, Enum):
-    # basic rollout strategies - nothing too fancy
     ALL = "all"                # everyone gets it
     PERCENTAGE = "percentage"  # gradual rollout based on hash
     USER_LIST = "user_list"    # specific users only

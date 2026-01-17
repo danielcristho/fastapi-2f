@@ -14,7 +14,7 @@ router = APIRouter(tags=["health"])
 
 
 def generate_ascii_status(text: str) -> str:
-    # ascii art for status messages - makes logs more fun
+    # ascii art for status messages
     return figlet_format(text, font="slant")
 
 
