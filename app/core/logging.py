@@ -1,6 +1,5 @@
 """
-Logging configuration using Loguru.
-Simple structured logging setup.
+Simple structured logging setup with loguru.
 """
 import sys
 from loguru import logger
