@@ -108,7 +108,7 @@ Copy `app/.env.example` to `app/.env` and adjust settings:
 - `GET /api/v1/flags/{key}` - Get flag
 - `GET /api/v1/flags/{key}/evaluate?user_id=X` - Evaluate flag
 
-See `app/FEATURE_FLAGS.md` for detailed API docs.
+See [`app/FEATURE_FLAGS.md`](./app/FEATURE_FLAGS.md) for detailed API docs.
 
 ## Future improvements
 
