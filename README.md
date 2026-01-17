@@ -5,7 +5,7 @@ Simple feature flag service built with FastAPI. Nothing fancy, just a working im
 This project was built using:
 
 - FastAPI + Uvicorn for the web service
-- Redis for caching, for now you can use Redis os ElastiCache
+- Redis pr ElastiCache for caching
 - AWS SSM Parameter Store for persistence
 - Pydantic for data validation
 - Loguru for logging
