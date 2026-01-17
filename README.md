@@ -17,6 +17,10 @@ This project was built using:
 - Cache flags in Redis for speed
 - Store flags in AWS SSM Parameter Store for persistence
 
+```sh
+Request → Check Redis → If miss, get from SSM → Store in Redis → Response
+```
+
 ![Project infra on AWS EKS](./assets/2f-eks-infra.png)
 
 ## How to Run
