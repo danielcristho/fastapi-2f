@@ -88,6 +88,7 @@ $ docker build -f infra/docker/Dockerfile -t 2f .
 $ docker run -p 8000:8000 2f
 
 or
+
 $ cd infra/docker && docker-compose up -d --build
 ```
 
