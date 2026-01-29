@@ -1,14 +1,4 @@
-# Feature Flag Service API
-
-## Architecture
-
-```
-Request → FastAPI → Service Layer → Cache (Redis) → SSM Parameter Store
-                                    ↓
-                                 Response
-```
-
-## API Endpoints
+# API Endpoints
 
 ### Create Feature Flag
 
