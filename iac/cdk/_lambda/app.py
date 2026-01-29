@@ -3,7 +3,7 @@ import os
 
 import aws_cdk as cdk
 
-from lambda.lambda_stack import LambdaStack
+from _lambda._lambda_stack import LambdaStack
 
 
 app = cdk.App()
